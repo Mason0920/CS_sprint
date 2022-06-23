@@ -1,0 +1,20 @@
+{
+    "Records": [
+        {
+            "messageId": "ae51233e-d5b3-46e1-b577-f151f87d67dd",
+            "receiptHandle": "AQEBf7dF2krfHVyQWM8nxyk9xsAj49QTax2Cva8zUQ6pZ1hOvUJRdrJ4+1EdpA2VLFfYwikAXOyC9wtz0SCM6WPIn5Bh3ZE91kpFZwG3dCN4dMwynFsGPs1w1aeQajQMMBlCjLqUb2ZPz1SycOMTQa2mZUW/WSC5kGsZdLL/2X22O12q4yEcv7kdZlnAiE/tO2YufPngumLovIWJH5TCLypAvhplvsKGELZCN5Odf6c7zwvRvU7DGavk/emti+a2gxKpeuBrQgyFt9WQNO7o5LXqkilHn0SbPlIoeO25RPCPqE039hnC2R0NO9Z0VgJjLj1nt/CMhOAC5jidKqKzERJ3vva1dXWw/en4PSoufU+ICCRfo51p3+QCXItEm1iiLPTE2RtiQDYvO4UEjcv6vSKd1A==",
+            "body": "{\"Service\":\"Amazon S3\",\"Event\":\"s3:TestEvent\",\"Time\":\"2022-04-14T13:44:13.677Z\",\"Bucket\":\"image-source-mason\",\"RequestId\":\"P740MTADR2PCTM09\",\"HostId\":\"uDCR4f9DTGtdr+2Yw1DSucNSZR2YYohxuMg7FL6UTtMJ0Z6V9KxUSnYAcR1O8XhA524YlbUMLcs=\"}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1649943853707",
+                "SenderId": "AIDAJCPXNKW2CHJMM46DC",
+                "ApproximateFirstReceiveTimestamp": "1649943853711"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "5a0d58f78b5fbcb51c4ea2530ff4903f",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:ap-northeast-2:523139768306:image-resizer-qeue",
+            "awsRegion": "ap-northeast-2"
+        }
+    ]
+}

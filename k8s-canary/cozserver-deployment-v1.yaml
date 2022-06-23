@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cozserver
+  labels:
+    app: cozserver
+    track: stable
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cozserver
+  template:
+    metadata:
+      labels:
+        app: cozserver
+    spec:
+      containers:
+      - name: cozserver
+        image: sebcontents/cozserver:1.0 # 구버전
+        ports:
+        - containerPort: 8080

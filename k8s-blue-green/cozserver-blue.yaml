@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cozserver-blue
+  labels:
+    app: cozserver
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cozserver
+      color: blue
+  template:
+    metadata:
+      labels:
+        app: cozserver
+        color: blue
+    spec:
+      containers:
+      - name: cozserver
+        image: sebcontents/cozserver:1.0
+        ports:
+        - containerPort: 8080

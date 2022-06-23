@@ -1,0 +1,1 @@
+variable "key_name" { default = "mac-keypair" }
